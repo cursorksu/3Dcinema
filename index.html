@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kindom of God</title>
+    <title>3D cinema</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Poiret+One&amp;subset=cyrillic" rel="stylesheet">    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:900&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet"  type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet"  type="text/css" href="css/slick.css"/>
@@ -22,13 +22,27 @@
                 <li><a href="#about"><span>Про нас</span></a></li>
                 <li><a href="#gallery"><span>Галерея</span></a></li>
                 <li><a href="#advantages"><span>переваги</span></a></li>
-                <li><a href="#predl"><span>пропозиція</span></a></li>
+                <li><a href="#contakts"><span>Контакти</span></a></li>
+            </ul>
+            <button class="btn-burger-menu">
+                <span></span>
+            </button>
+            <ul class="main-menu-mobile">
+                <li class="btn-close">
+                    <span class="icon-cancel"></span>
+                </li>
+                <li><a href="#about"><span>Про нас</span></a></li>
+                <li><a href="#gallery"><span>Галерея</span></a></li>
+                <li><a href="#advantages"><span>переваги</span></a></li>
                 <li><a href="#contakts"><span>Контакти</span></a></li>
             </ul>
         </nav>
     </div>
 </header>
 <section class="hero">
+    <div class="paralax cross-3"></div>
+    <div class="paralax-1 cross-0"></div>
+    <div class="paralax-2 cross-1"></div>
     <div class="hero-info">
         <div class="hero-wrapper">
             <h1 class="title"><span class="animate"><span>3D</span> <br> cinema</span></h1>
@@ -73,6 +87,9 @@
     </div>
 </section>
 <section id = "gallery" class="gallery">
+    <div class="paralax-1 cross-4"></div>
+    <div class="paralax cross-2"></div>
+    <div class="paralax-2 cross-3"></div>
     <div class="wrapper"><div class = "subtitle">Наша робота</div></div>
         <script  type="text/javascript" >
             var angle = 0;
@@ -84,19 +101,19 @@
         </script>
         <div id="carousel">
             <figure id="spinner">
-                <img src="images/grin_2.jpg" alt>
-                <img src="images/space.gif" alt>
-                <img src="images/mut.jpg" alt>
-                <img src="images/popcorn2.jpg" alt>
-                <img src="images/frozen.png" alt>
-                <img src="images/polet.gif" alt>
-                <img src="images/okean.jpg" alt>
-                <img src= "images/planetariy.jpg" alt>
+                <img src="muve/slide1.jpg" alt>
+                <img src="muve/slide8.jpg" alt>
+                <img src="muve/slide2.jpg" alt>
+                <img src="muve/slide3.jpg" alt>
+                <img src="muve/slide4.jpg" alt>
+                <img src="muve/slide5.jpg" alt>
+                <img src="muve/slide6.jpg" alt>
+                <img src="muve/slide7.jpg" alt>
             </figure>
         </div>
 
-        <span class = "slick-arrow slick-prev" onclick="galleryspin('-')">&lt;</span>
-        <span class = "slick-arrow slick-next" onclick="galleryspin('')">&gt;</span>
+        <span class = "slick-arrow slick-prev" onclick="galleryspin('-')"></span>
+        <span class = "slick-arrow slick-next" onclick="galleryspin('')"></span>
 
 </section>
 <section id = "advantages" class="advantages">
@@ -104,32 +121,33 @@
         <div class = "subtitle">Чому обирають нас?</div>
         <ul class="flex-cont">
             <li class="flex-item hs-item">
-                <!--<img src="images/trrms_item_2.png" alt="Біблія">-->
-                <p class="hs-descr">«Puppy» (щенятко) -  у даній   серії міньйон бажає
-                    відшукати собі улюбленця і      знаходить друга.
+                <p class="hs-descr">
+                    Ми підбираємо відео контент відповідно віку та вподобаннь аудиторії
                 </p>
             </li>
             <li class="flex-item hs-item">
-                <!--<img src="images/trrms_item_3.png" alt="Серце">-->
-                <p class="hs-descr">«LOU»-про лояльність та доброту, поганого хлопчика провчили іграшки.</p>
-            </li>
-            <li class="flex-item hs-item">
-                <!--<img src="images/trrms_item_1.png" alt="Календар">-->
-                <p class="hs-descr">«Сніговик та Олень» - кумедна боротьба за морквину</p>
-            </li>
-            <li class="flex-item hs-item">
-                <!--<img src="images/trrms_item_1.png" alt="Календар">-->
-                <p class="hs-descr">«Пісочник» - мама пташечка вчить  пташеняток на березі океану</p>
-            </li>
-            <li class="flex-item hs-item">
-                <!--<img src="images/trrms_item_1.png" alt="Календар">-->
-                <p class="hs-descr">«MEНЮ» надзвичайно
-                    чуттєва розповідь про     дружбу тварин і   людей
+                <p class="hs-descr">
+                    Ми надаємо комплексні послуги розважального спектру
                 </p>
             </li>
             <li class="flex-item hs-item">
-                <!--<img src="images/trrms_item_1.png" alt="Календар">-->
-                <p class="hs-descr">«Горобці та цапля» - максимальний заряд сміху і веселого настрою
+                <p class="hs-descr">
+                    Ми використовуємо безпечні 3d окуляри, які відповідають вимогам сучасних стандартів
+                </p>
+            </li>
+            <li class="flex-item hs-item">
+                <p class="hs-descr">
+                    Познавальну користь від просмотру 3d фільмів в кулі важко переоцінити
+                </p>
+            </li>
+            <li class="flex-item hs-item">
+                <p class="hs-descr">
+                    Ефект відвідування надувної кулі дарує дітям незабутні враження
+                </p>
+            </li>
+            <li class="flex-item hs-item">
+                <p class="hs-descr">
+                    Нам подобається радувати дітей
                 </p>
             </li>
         </ul>
@@ -138,42 +156,43 @@
 
 </section>
 <section class="move">
-    <div class="wrapper">
-        <div class = "subtitle">Відеоматеріали для дитячих садочків
-        <p>Підберемо контент за вашими вподобаннями</p>
-        </div>
-        <ul class="move-list">
-            <li class="flex-item hs-item">
-                <img src="images/puppy.png" alt="img">
-                <p class="hs-descr">«Puppy» (щенятко) -  у даній   серії міньйон бажає
-                    відшукати собі улюбленця і      знаходить друга.
-                </p>
-            </li>
-            <li class="flex-item hs-item">
-                <img src="images/lol.png" alt="img">
-                <p class="hs-descr">«LOU»-про лояльність та доброту, поганого хлопчика провчили іграшки.</p>
-            </li>
-            <li class="flex-item hs-item">
-                <img src="images/frozen.png" alt="img">
-                <p class="hs-descr">«Сніговик та Олень» - кумедна боротьба за морквину</p>
-            </li>
-            <li class="flex-item hs-item">
-                <img src="images/piso4nik.png" alt="img">
-                <p class="hs-descr">«Пісочник» - мама пташечка вчить  пташеняток на березі океану</p>
-            </li>
-            <li class="flex-item hs-item">
-                <img src="images/menu.png" alt="img">
-                <p class="hs-descr">«MEНЮ» надзвичайно
-                    чуттєва розповідь про     дружбу тварин і   людей
-                </p>
-            </li>
-            <li class="flex-item hs-item">
-                <img src="images/bird.png" alt="Календар">
-                <p class="hs-descr">«Горобці та цапля» - максимальний заряд сміху і веселого настрою
-                </p>
-            </li>
-        </ul>
+    <div class="paralax cross-0"></div>
+    <div class="paralax-1 cross-2"></div>
+    <div class="paralax-2 cross-1"></div>
+    <div class = "subtitle">Відеоматеріали для дитячих садочків
+    <p>Підберемо контент за вашими вподобаннями</p>
     </div>
+    <ul class="move-list">
+        <li class="flex-item hs-item">
+            <img src="images/puppy.png" alt="img">
+            <p class="hs-descr">«Puppy» (щенятко) -  у даній   серії міньйон бажає
+                відшукати собі улюбленця і      знаходить друга.
+            </p>
+        </li>
+        <li class="flex-item hs-item">
+            <img src="images/lol.png" alt="img">
+            <p class="hs-descr">«LOU»-про лояльність та доброту, поганого хлопчика провчили іграшки.</p>
+        </li>
+        <li class="flex-item hs-item">
+            <img src="images/frozen.png" alt="img">
+            <p class="hs-descr">«Сніговик та Олень» - кумедна боротьба за морквину</p>
+        </li>
+        <li class="flex-item hs-item">
+            <img src="images/piso4nik.png" alt="img">
+            <p class="hs-descr">«Пісочник» - мама пташечка вчить  пташеняток на березі океану</p>
+        </li>
+        <li class="flex-item hs-item">
+            <img src="images/menu.png" alt="img">
+            <p class="hs-descr">«MEНЮ» надзвичайно
+                чуттєва розповідь про     дружбу тварин і   людей
+            </p>
+        </li>
+        <li class="flex-item hs-item">
+            <img src="images/bird.png" alt="Календар">
+            <p class="hs-descr">«Про пташок» - максимальний заряд сміху і веселого настрою
+            </p>
+        </li>
+    </ul>
 </section>
 <section class="new">
     <div class="sticker">Новинка!</div>
