@@ -57,11 +57,10 @@ $(function () {
     $('.paralax-1').paroller({ factor: -0.3, type: 'foreground' });
 
 
-        var nPlatf = navigator.platform;
-        if(nPlatf.includes('Mac')){
-            $('.hero-wrapper .title').css('display', 'none');
-        } else {
-
-        }
+    var user = detect.parse(navigator.userAgent);
+    if (user.browser.family === 'Safari') {
+        $('.hero-wrapper .title').css('display', 'none');
+        $('.ochki').css('display', 'none');
+    }
 
 });
