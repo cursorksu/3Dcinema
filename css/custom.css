@@ -129,6 +129,9 @@ body{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
 }
 .move-list li{
 	margin: 10px;
