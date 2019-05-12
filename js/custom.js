@@ -55,4 +55,13 @@ $(function () {
     $('.paralax').paroller({ factor: -0.7, type: 'foreground' });
     $('.paralax-2').paroller({ factor: -0.1, type: 'foreground' });
     $('.paralax-1').paroller({ factor: -0.3, type: 'foreground' });
+
+
+        var nPlatf = navigator.platform;
+        if(nPlatf.includes('Mac')){
+            $('.hero-wrapper .title').css('display', 'none');
+        } else {
+
+        }
+
 });
