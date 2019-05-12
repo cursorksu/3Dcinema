@@ -57,8 +57,8 @@ $(function () {
     $('.paralax-1').paroller({ factor: -0.3, type: 'foreground' });
 
 
-    var user = detect.parse(navigator.userAgent);
-    if (user.browser.family === 'Safari') {
+    var nPlatf = navigator.platform;
+    if(nPlatf.includes('Mac')){
         $('.hero-wrapper .title').css('display', 'none');
         $('.ochki').css('display', 'none');
     }
